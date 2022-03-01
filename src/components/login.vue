@@ -83,8 +83,7 @@ export default {
   margin: 7rem auto;
   background: #ebebeb;
   border-radius: 0.4rem;
-  display: flex;
-  justify-content: space-around;
+  display: flex;  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   opacity: .75;
