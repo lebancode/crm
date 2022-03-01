@@ -128,7 +128,8 @@ export default {
   outline: none;
   border-style: none;
   border-radius: 0.3rem;
-  background: #ebebeb;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
   margin-top: 1rem;
 
 }
@@ -142,6 +143,8 @@ export default {
     font-size: 1rem;
     letter-spacing: 3px;
     transition: .3s;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
 }
 .data-demo>button:hover{
     background-color: #dc0073;

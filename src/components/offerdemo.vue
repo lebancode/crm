@@ -109,14 +109,16 @@ export default {
   outline: none;
   border-style: none;
   border-radius: 0.3rem;
-  background: #ebebeb;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
 }
 .offer-demo > textarea {
   width: 90%;
   height: 200px;
   letter-spacing: 2px;
   color: #555b6e;
-  background: #ebebeb;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
   font-family: "Comfortaa", cursive;
   font-size: 1.5rem;
   padding: 1rem;
@@ -141,8 +143,8 @@ export default {
   padding-bottom: 0.5rem;
   border-bottom-style: solid;
   text-align: center;
-  color: #ebebeb;
-  border-color: #ebebeb;
+  color: #444;
+  border-color: #444;
   font-size: 1.1rem;
 }
 .offer-demo-footer > input {
@@ -153,16 +155,16 @@ export default {
   padding-bottom: 0.5rem;
   border-bottom-style: solid;
   text-align: center;
-  color: #ebebeb;
-  border-color: #ebebeb;
+  color: #444;
+  border-color: #444;
   font-size: 1.5rem;
   letter-spacing: 5px;
 }
 .offer-demo-footer > input::placeholder {
-  color: #ebebeb;
+  color: #444;
 }
 .offer-demo-footer > span {
-  color: #ebebeb;
+  color: #444;
   font-size: 2rem;
 }
 </style>

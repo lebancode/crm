@@ -69,7 +69,8 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #d9d9d9;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
   border-radius: 0.3rem;
 }
 .payments-bar > h2 {

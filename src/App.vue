@@ -326,12 +326,15 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --drk-txt: #444;
+}
 .container,
 body {
   width: 100%;
   height: 100%;
-  background-color: #4b525e;  
-  background-image: url('./assets/wallpaper.jpg');
+  background-color: #edf6f9;  
+  /* background-image: url('./assets/wallpaper.jpg'); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

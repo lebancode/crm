@@ -119,8 +119,9 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #d9d9d9;
   border-radius: 0.3rem;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
 }
 .client-data-title {
   width: 80%;
@@ -136,7 +137,8 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   overflow: auto;
-  background-color: #ebebeb;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
   border-radius: 0.3rem;
   margin: 1rem;
 }
