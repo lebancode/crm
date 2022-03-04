@@ -76,6 +76,14 @@
         <h3>Starting_Date ></h3>
         <h1>{{ red(sheet.Starting_Date) }}</h1>
       </div>
+      <div class="client-data-pot">
+        <h3>Github_Email ></h3>
+        <h1>{{ sheet.Github_Email }}</h1>
+      </div>
+      <div class="client-data-pot">
+        <h3>Github_Password ></h3>
+        <h1>{{ sheet.Github_Password }}</h1>
+      </div>
     </div>
   </div>
 </template>

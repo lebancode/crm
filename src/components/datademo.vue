@@ -33,6 +33,8 @@
     <input type="text" :value="sheet.Client_Number"  id="Client_Number"  placeholder="Client Number" />
     <input type="text" :value="sheet.Secretary_Number"  id="Secretary_Number"  placeholder="Secretary Number" />
     <input type="date" :value="sheet.Starting_Date"  id="Starting_Date"  placeholder="Starting Date" />
+    <input type="text" :value="sheet.Github_Email"  id="Github_Email"  placeholder="Github Email" />
+    <input type="text" :value="sheet.Github_Password"  id="Github_Password"  placeholder="Github Password" />
 
     <button @click="save">SAVE</button>
   </div>
@@ -76,6 +78,8 @@ export default {
         Client_Number : document.getElementById('Client_Number').value,
         Secretary_Number : document.getElementById('Secretary_Number').value,
         Starting_Date : this.red(document.getElementById('Starting_Date').value),
+        Github_Email : document.getElementById('Github_Email').value,
+        Github_Password : document.getElementById('Github_Password').value,
       }
       console.log(data)
       var api = this.api;
