@@ -99,7 +99,8 @@ export default {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #ebebeb;
+  box-shadow: 0px 0px 4px #8d99ae;
+  background-color: #edf6f9;
   border-radius: 0.3rem;
   margin: 1rem;
   padding: 0.5rem;
